@@ -1,5 +1,4 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 
 # Fungsi Moora
 def moora(data, weights):
@@ -29,15 +28,4 @@ result = moora(data, weights)
 
 # Menampilkan hasil
 print("Hasil Metode Moora:")
-print(result)
-
-# Visualisasi hasil Moora
-plt.figure(figsize=(8, 5))
-result['Total'].plot(kind='bar', color='skyblue')
-plt.title('Total Nilai Moora untuk Setiap Alternatif')
-plt.xlabel('Alternatif')
-plt.ylabel('Total Nilai Moora')
-plt.xticks(rotation=0)
-plt.grid(axis='y')
-plt.tight_layout()
-plt.show()
+print
